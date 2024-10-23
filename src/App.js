@@ -7,6 +7,7 @@ function App() {
       {" "}
       <h1>Weather App</h1>
       <footer>
+       
         This project was coded by
         <a
           href="https://nataliia-opanasenko-portfolio.netlify.app/"
