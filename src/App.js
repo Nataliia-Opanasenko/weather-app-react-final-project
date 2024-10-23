@@ -11,6 +11,7 @@ function App() {
         <a
           href="https://nataliia-opanasenko-portfolio.netlify.app/"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           Nataliia Opanasenko
@@ -19,6 +20,7 @@ function App() {
         <a
           href="https://github.com/Nataliia-Opanasenko/weather-app-react-final-project"
           target="_blank_"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>
