@@ -5,7 +5,7 @@ import WeatherInfo from "./WeatherInfo";
 
 
 export default function Weather(props) {
-  const [weatherData, setWeatherData] = useState({ reardy: false });
+  const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
 function handleResponse(response) {
@@ -60,7 +60,7 @@ if(weatherData.ready){
            <div className="col-3">
              <input
                type="submit"
-               value="Seatch"
+               value="Search"
                className="btn btn-primary w-100"
              />
            </div>
