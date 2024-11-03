@@ -10,14 +10,14 @@ export default function Weather(props) {
 function handleResponse(response) {
  console.log(response.data);
 setWeatherData({
-  ready: true, 
+  ready: true,
   date: new Date(response.data.dt * 1000),
   temperature: response.data.main.temp,
   humidity: response.data.main.humidity,
   wind: response.data.wind.speed,
   city: response.data.name,
   description: response.data.weather[0].description,
-  iconUrl: "https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
+  iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
 });
 
 }
