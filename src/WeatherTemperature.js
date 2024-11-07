@@ -8,7 +8,7 @@ function showFahrenheit(event) {
 }
 
 function showCelsius(event){
-    event.preventDafault();
+    event.preventDefault(); 
     setUnit("celsius");
 }
  function fahrenheit() {
